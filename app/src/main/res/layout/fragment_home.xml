@@ -11,18 +11,19 @@
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="390dp"
-            android:layout_height="96dp"
+            android:layout_width="381dp"
+            android:layout_height="106dp"
             android:gravity="center"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.100000024">
+            app:layout_constraintVertical_bias="0.073">
 
             <LinearLayout
-                android:layout_width="279dp"
+                android:layout_width="262dp"
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:orientation="vertical">
@@ -48,10 +49,10 @@
 
             <ImageView
                 android:id="@+id/time_img"
-                android:layout_width="103dp"
-                android:layout_height="96dp"
-                android:layout_marginLeft="30dp"
+                android:layout_width="113dp"
+                android:layout_height="100dp"
                 app:srcCompat="@drawable/evenining_sun" />
+
         </LinearLayout>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -89,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/emptyback"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
