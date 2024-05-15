@@ -31,4 +31,6 @@ class Onboard_screen_1 : AppCompatActivity() {
 // Hide the action bar (if using AppCompatActivity)
         supportActionBar?.hide()
     }
+
+
 }
